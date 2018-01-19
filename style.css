@@ -41,6 +41,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-xxl{
 	padding:200px 50px;
 }
+.bloc-xl{
+	padding:150px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
