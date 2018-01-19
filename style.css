@@ -41,30 +41,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-xxl{
 	padding:200px 50px;
 }
-.bloc-xl{
-	padding:150px 50px;
-}
 .bloc-lg{
 	padding:100px 50px;
 }
 .bloc-sm{
 	padding:20px 50px;
-}
-
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
 }
 
 
@@ -169,20 +150,15 @@ a:hover{text-decoration: none; cursor:pointer;}
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
-/* Dividers */
-
-.b-divider{
-	border-top:1px solid rgba(0,0,0,.1);
-	border-bottom:1px solid rgba(0,0,0,.1);
-}
 
 /* Bloc text custom styling */
 
 #bloc-1 h3{
-	font-size: 35px;
-}
-#bloc-1 p{
 	font-size: 25px;
+	line-height: 35px;
+}
+#bloc-2 h3{
+	font-size: 35px;
 }
 #bloc-2 p{
 	font-size: 25px;
@@ -190,13 +166,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-3 p{
 	font-size: 25px;
 }
-#bloc-4 h3{
-	font-size: 30px;
+#bloc-4 p{
+	font-size: 25px;
 }
 #bloc-5 h3{
 	font-size: 30px;
 }
-#bloc-5 p{
+#bloc-6 h3{
+	font-size: 30px;
+}
+#bloc-6 p{
 	font-size: 25px;
 }
 
@@ -361,16 +340,6 @@ button{
 
 
 
-/*  Rounded Image */
-.img-rd{
-	border-radius:6px;
-}
-.img-rd-md{
-	border-radius:20px;
-}
-.img-rd-lg{
-	border-radius:34px;
-}
 
 
 
@@ -443,6 +412,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:50px;
 	margin-top:35%;
 }
+.mountaindusk-hero-text-s{
+	font-size:60px;
+}
+.mountaindusk-hero-text-sub-s{
+	font-size:34px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -451,6 +426,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-white{
 	background-color:#FFFFFF;
+}
+.bgc-carmine-pink{
+	background-color:#EE5841;
 }
 .bgc-outer-space{
 	background-color:#47454B;
@@ -469,9 +447,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	!important}
 /* Bloc image backgrounds */
 
-.bg-HERO-20ULTIMATE{
-	background-image:url("img/HERO%20ULTIMATE.jpg");
-}
 .bg-bs{
 	background-image:url("img/bs.jpg");
 }
@@ -668,7 +643,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-group-text-vc{
 	margin-top:0%;
 }
- }
+ /* = Text Tablet Alignment Classes
+-------------------------------------------------------------- */
+.text-center-sm{
+	text-align:center;
+}
+}
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
 	
